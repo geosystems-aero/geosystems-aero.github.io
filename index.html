@@ -245,6 +245,7 @@ map.on("load", function() {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.add('active');
         map.flyTo(chapter.location);
+        //map.jumpTo(chapter.location);
         if (config.showMarkers) {
             marker.setLngLat(chapter.location.center);
         }
