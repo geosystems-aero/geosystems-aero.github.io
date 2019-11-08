@@ -1,6 +1,6 @@
 var config = {
-    style: 'mapbox://styles/mapbox/streets-v11',
-    accessToken: 'YOUR_ACCESS_TOKEN',
+    style: 'mapbox://styles/hive-geosystems-aero/ck2otr3y20bvn1croqti0ox3h',
+    accessToken: 'pk.eyJ1IjoiaGl2ZS1nZW9zeXN0ZW1zLWFlcm8iLCJhIjoiY2sycTVleDB3MGFqMDNjcnVzdGttbmttcSJ9.ow2NQzh4kwxNRoDd1bPeDQ',
     showMarkers: true,
     theme: 'light',
     alignment: 'left',
@@ -15,9 +15,9 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
-                center: [-122.418398, 37.759483],
-                zoom: 13.5,
-                pitch: 60,
+                center: [24.658, 59.398],
+                zoom: 19,
+                pitch: 45,
                 bearing: 0
             },
             onChapterEnter: [
@@ -40,7 +40,7 @@ var config = {
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.020636, 38.886900],
-                zoom: 13.5,
+                zoom: 19,
                 pitch: 60,
                 bearing: -43.2
             },
